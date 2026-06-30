@@ -6,9 +6,13 @@ Buchhaltungs-App für KSK-versicherte Freiberufler (macOS 15+).
 ## Installation
 
 ```bash
-brew tap Wiredframe/kontor
+brew tap wiredframe/kontor
+brew trust --cask wiredframe/kontor/kontor
 brew install --cask kontor
 ```
+
+Der `brew trust`-Schritt ist seit **Homebrew 6** nötig: Fremd-Taps müssen einmalig bestätigt werden
+(ein Cask kann Code ausführen).
 
 Kontor ist **nicht notariell signiert** (kostenlos & Open Source). Wenn macOS den Start
 blockiert, hilft eines davon:
