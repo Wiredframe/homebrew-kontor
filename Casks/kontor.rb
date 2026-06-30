@@ -1,6 +1,6 @@
 cask "kontor" do
   version "1.1"
-  sha256 :no_check # TODO: nach dem ersten Release durch echten SHA256 ersetzen (release.sh gibt ihn aus)
+  sha256 "c144f90515426f9b6955cbddd35a640a67b88279eb7726ea62fce442b43d84cb"
 
   url "https://github.com/Wiredframe/Kontor/releases/download/v#{version}/Kontor-#{version}.zip"
   name "Kontor"
