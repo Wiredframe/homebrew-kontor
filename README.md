@@ -8,21 +8,14 @@ Buchhaltungs-App für KSK-versicherte Freiberufler (macOS 15+).
 ```bash
 brew tap wiredframe/kontor
 brew trust --cask wiredframe/kontor/kontor
-brew install --cask kontor
-```
-
-Der `brew trust`-Schritt ist seit **Homebrew 6** nötig: Fremd-Taps müssen einmalig bestätigt werden
-(ein Cask kann Code ausführen).
-
-Kontor ist **nicht notariell signiert** (kostenlos & Open Source). Wenn macOS den Start
-blockiert, hilft eines davon:
-
-```bash
-# Quarantäne nachträglich entfernen …
-xattr -dr com.apple.quarantine "/Applications/Kontor.app"
-
-# … oder gleich ohne Quarantäne installieren:
 brew install --cask --no-quarantine kontor
 ```
+
+- `brew trust` ist seit **Homebrew 6** für Fremd-Taps Pflicht (ein Cask darf Code ausführen).
+- `--no-quarantine` überspringt den Gatekeeper-Block, weil Kontor **nicht notariell signiert** ist
+  (kostenlos & Open Source).
+
+Schon ohne das Flag installiert und macOS blockt den Start? Dann einmalig:
+`xattr -dr com.apple.quarantine "/Applications/Kontor.app"`.
 
 Mehr dazu unter [Kontor → Installation](https://github.com/Wiredframe/Kontor#installation).
