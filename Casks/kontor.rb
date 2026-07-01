@@ -7,7 +7,7 @@ cask "kontor" do
   desc "Lokale, offline Buchhaltungs-App für Freiberufler (EÜR, UStVA, KSK)"
   homepage "https://github.com/Wiredframe/Kontor"
 
-  depends_on macos: ">= :sequoia"
+  depends_on macos: :sequoia
 
   app "Kontor.app"
 
