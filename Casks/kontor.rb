@@ -1,6 +1,6 @@
 cask "kontor" do
-  version "1.3"
-  sha256 "4303e289dcd6075c7caefa02fdb6ec296e22dfc200a7b4ac0bd726895e399ceb"
+  version "1.4"
+  sha256 "e38260ce2a6bbd2efa4b580b65747e45ebf1f3104d6143a9fade0b05804433e2"
 
   url "https://github.com/Wiredframe/Kontor/releases/download/v#{version}/Kontor-#{version}.zip"
   name "Kontor"
