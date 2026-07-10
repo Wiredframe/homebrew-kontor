@@ -2,10 +2,10 @@ cask "kontor" do
   version "1.6"
   sha256 "0256db3c0387d61783a8e7db441f1a16341c6330b8b4069ddf2f801e3635a47a"
 
-  url "https://github.com/Wiredframe/Kontor/releases/download/v#{version}/Kontor-#{version}.zip"
+  url "https://github.com/Wiredframe/kontor-buchhaltung/releases/download/v#{version}/Kontor-#{version}.zip"
   name "Kontor"
   desc "Lokale, offline Buchhaltungs-App für Freiberufler (EÜR, UStVA, KSK)"
-  homepage "https://github.com/Wiredframe/Kontor"
+  homepage "https://github.com/Wiredframe/kontor-buchhaltung"
 
   depends_on macos: :sequoia
 

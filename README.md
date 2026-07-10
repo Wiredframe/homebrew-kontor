@@ -1,6 +1,6 @@
 # Wiredframe/homebrew-kontor
 
-Homebrew-Tap für [Kontor](https://github.com/Wiredframe/Kontor) – die lokale, offline
+Homebrew-Tap für [Kontor](https://github.com/Wiredframe/kontor-buchhaltung) – die lokale, offline
 Buchhaltungs-App für KSK-versicherte Freiberufler (macOS 15+).
 
 ## Installation
@@ -18,4 +18,4 @@ brew install --cask --no-quarantine kontor
 Schon ohne das Flag installiert und macOS blockt den Start? Dann einmalig:
 `xattr -dr com.apple.quarantine "/Applications/Kontor.app"`.
 
-Mehr dazu unter [Kontor → Installation](https://github.com/Wiredframe/Kontor#installation).
+Mehr dazu unter [Kontor → Installation](https://github.com/Wiredframe/kontor-buchhaltung#installation).
